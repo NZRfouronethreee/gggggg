@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(https://i.pinimg.com/564x/47/b1/f7/47b1f77c62eea415df60fad447288177.jpg);
+    background-size: 40%;
+}
+
+h1 {
+    font-size: 120px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.322);
+}
+
+.parallax-1 {
+    background: url('img1.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+ a {
+background-color: #5d5be0ee;
+display: block;
+width: 140px;
+height: 40px;
+line-height: 40px;
+text-align: center;
+margin: auto;
+border-radius: 20px;
+text-decoration: none;
+font-weight: bold;
+color: rgba(243, 247, 247, 0.63);
+
+}
+
+.parallax-2 {
+    background: url('img5.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.parallax-inner {
+    padding: 10% 0;
+}
+
+h2 {
+    font-size: 32px;
+    color: #555;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 20px 0 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #444343;
+    text-align: justify;
+    line-height: 30px;
+    margin: 0 50px 40px;
+}
+
+p:nth-of-type(2),
+p:nth-of-type(3) {
+    margin: 40px 50px;
+}
